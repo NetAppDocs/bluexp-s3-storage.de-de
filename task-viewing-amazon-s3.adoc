@@ -1,0 +1,49 @@
+---
+sidebar: sidebar 
+permalink: task-viewing-amazon-s3.html 
+keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
+summary: Nach der Installation eines Connectors in AWS erkennt BlueXP automatisch Informationen zu den Amazon S3 Buckets, die sich im AWS Konto befinden, in dem der Connector installiert ist. Eine Amazon S3-Arbeitsumgebung wird dem Canvas hinzugefügt, damit Sie diese Informationen anzeigen können. 
+---
+= Anzeigen Ihrer Amazon S3 Buckets
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Nach der Installation eines Connectors in AWS erkennt BlueXP automatisch Informationen zu den Amazon S3 Buckets, die sich im AWS Konto befinden, in dem der Connector installiert ist. Eine Amazon S3-Arbeitsumgebung wird dem Canvas hinzugefügt, damit Sie diese Informationen anzeigen können.
+
+Sie erhalten Details zu Ihren S3 Buckets, einschließlich Region, Zugriffsrichtlinien, Konto, Gesamt- und genutzter Kapazität, und mehr. Diese Buckets können als Ziele für Cloud-Backup, Cloud-Tiering oder Cloud Sync-Vorgänge verwendet werden. Zudem können Sie mit Cloud Data Sense diese Buckets scannen.
+
+.Schritte
+. https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-creating-connectors-aws.html["Installieren Sie einen Anschluss"^] In dem AWS Konto, wo Sie Ihre Amazon S3 Buckets anzeigen möchten.
+. Wählen Sie im Navigationsmenü die Option *Storage > Canvas* aus.
++
+Sie sollten Ihre Amazon S3-Arbeitsumgebung kurz danach automatisch sehen.
+
++
+image:screenshot-amazon-s3-we.png["Ein Screenshot einer Amazon S3 Arbeitsumgebung"]
+
+. Klicken Sie auf die Arbeitsumgebung, und wählen Sie im rechten Fensterbereich eine Aktion aus, wenn Sie BlueXP Services mit Ihrem S3-Storage aktivieren möchten.
++
+image:screenshot-amazon-s3-actions.png["Ein Screenshot, der das Teilfenster „Aktionen“ zeigt, nachdem Sie eine Amazon S3-Arbeitsumgebung ausgewählt haben. Im Bereich werden Informationen über S3 angezeigt: Die Anzahl der Buckets und die verfügbaren Services."]
+
++
+link:task-s3-enable-data-services.html["Hier erfahren Sie, welche BlueXP Services verfügbar sind und wie Sie sie mit Ihren S3 Buckets nutzen"].
+
+. Klicken Sie auf *Enter Working Environment* oder doppelklicken Sie auf die Arbeitsumgebung, um Details zu den S3 Buckets in Ihrem AWS-Konto anzuzeigen.
++
+image:screenshot-amazon-s3-buckets.png["Ein Screenshot mit den Details einer Amazon S3-Arbeitsumgebung, der Gesamtzahl an Buckets und Regionen sowie einer Tabelle mit Details zu jedem S3-Bucket."]
+
++
+Zusätzlich zu den standardmäßig angezeigten Spalten können Sie auf der Seite blättern, um zusätzliche Eigenschaften für den Bucket anzuzeigen, z. B. die Anzahl der Tags und ob Objektsperre oder Versionierung aktiviert wurden.
+
+
+
+.Wie es weiter geht
+Sie können einige Bucket-Einstellungen direkt in BlueXP ändern, indem Sie auf klicken image:button-horizontal-more.gif["Die Schaltfläche „drei Punkte mehr“"] Für einen Eimer. link:task-change-s3-bucket-settings.html["Weitere Informationen finden Sie hier"].
+
+Sie können neue S3-Buckets hinzufügen, indem Sie auf *Add bucket* klicken. link:task-add-s3-bucket.html["Weitere Informationen finden Sie hier"].

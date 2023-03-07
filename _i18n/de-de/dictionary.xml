@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="efd9710de9c698fbbeb7b7b11597f70b" category="summary">Nach der Installation eines Connectors in AWS erkennt BlueXP automatisch Informationen zu den Amazon S3 Buckets, die sich im AWS Konto befinden, in dem der Connector installiert ist. Eine Amazon S3-Arbeitsumgebung wird dem Canvas hinzugefügt, damit Sie diese Informationen anzeigen können.</block>
+  <block id="f7099ec977551c0bfc4264472c0bf927" category="doc">Anzeigen Ihrer Amazon S3 Buckets</block>
+  <block id="bf9799ea7692475c7cf9755a148ec201" category="paragraph">Sie erhalten Details zu Ihren S3 Buckets, einschließlich Region, Zugriffsrichtlinien, Konto, Gesamt- und genutzter Kapazität, und mehr. Diese Buckets können als Ziele für Cloud-Backup, Cloud-Tiering oder Cloud Sync-Vorgänge verwendet werden. Zudem können Sie mit Cloud Data Sense diese Buckets scannen.</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Schritte</block>
+  <block id="9c626900b015a97ee8e428d66dd7d5d1" category="inline-link">Installieren Sie einen Anschluss</block>
+  <block id="e3d07a5a8e9d92ec07ff54bddf83b566" category="list-text"><block ref="4ef510fbfc2c4b2e5e25d70526475251" category="inline-link-rx"></block> In dem AWS Konto, wo Sie Ihre Amazon S3 Buckets anzeigen möchten.</block>
+  <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">Wählen Sie im Navigationsmenü die Option *Storage &gt; Canvas* aus.</block>
+  <block id="89333a465b6c97994dd32a6e7b896c78" category="paragraph">Sie sollten Ihre Amazon S3-Arbeitsumgebung kurz danach automatisch sehen.</block>
+  <block id="620734ddcf438083fa8f2f7a7550fbbf" category="inline-image-macro">Ein Screenshot einer Amazon S3 Arbeitsumgebung</block>
+  <block id="93850b8e1d97181700833dcae4c7e219" category="paragraph"><block ref="93850b8e1d97181700833dcae4c7e219" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9f8c79c12186f277b18c0a88881b6c2d" category="list-text">Klicken Sie auf die Arbeitsumgebung, und wählen Sie im rechten Fensterbereich eine Aktion aus, wenn Sie BlueXP Services mit Ihrem S3-Storage aktivieren möchten.</block>
+  <block id="3664079914496ab0ee90209b4ace936f" category="inline-image-macro">Ein Screenshot, der das Teilfenster „Aktionen“ zeigt, nachdem Sie eine Amazon S3-Arbeitsumgebung ausgewählt haben. Im Bereich werden Informationen über S3 angezeigt: Die Anzahl der Buckets und die verfügbaren Services.</block>
+  <block id="5f5106419e685f6e9190157425cf9f03" category="paragraph"><block ref="5f5106419e685f6e9190157425cf9f03" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6f371b1b2b98ce128fad66dd28599e7a" category="inline-link-macro">Hier erfahren Sie, welche BlueXP Services verfügbar sind und wie Sie sie mit Ihren S3 Buckets nutzen</block>
+  <block id="229cfda928e566937d5c5c424f2865dc" category="paragraph"><block ref="73b3af182b51af9520244e5fd9710630" category="inline-link-macro-rx"></block>.</block>
+  <block id="ceeee7f8ead6f81a6db4d7c78b588177" category="list-text">Klicken Sie auf *Enter Working Environment* oder doppelklicken Sie auf die Arbeitsumgebung, um Details zu den S3 Buckets in Ihrem AWS-Konto anzuzeigen.</block>
+  <block id="36aef4dd1ad8e5d43e4337638d99308c" category="inline-image-macro">Ein Screenshot mit den Details einer Amazon S3-Arbeitsumgebung, der Gesamtzahl an Buckets und Regionen sowie einer Tabelle mit Details zu jedem S3-Bucket.</block>
+  <block id="f529be174f5fab5c827176b726784ddb" category="paragraph"><block ref="f529be174f5fab5c827176b726784ddb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7462056cb7ed96e8e2bfa335d78d9644" category="paragraph">Zusätzlich zu den standardmäßig angezeigten Spalten können Sie auf der Seite blättern, um zusätzliche Eigenschaften für den Bucket anzuzeigen, z. B. die Anzahl der Tags und ob Objektsperre oder Versionierung aktiviert wurden.</block>
+  <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">Wie es weiter geht</block>
+  <block id="8844ea245d7c08ab2233754002d80b15" category="inline-image-macro">Die Schaltfläche „drei Punkte mehr“</block>
+  <block id="6aa300e24ddf3ee5a99bbb1cf5bb4a72" category="inline-link-macro">Weitere Informationen finden Sie hier</block>
+  <block id="f7c83d52179afb4b4905222f46b12fe3" category="paragraph">Sie können einige Bucket-Einstellungen direkt in BlueXP ändern, indem Sie auf klicken <block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> Für einen Eimer. <block ref="fb2338c21d7a6262957fb98c8ca54de1" category="inline-link-macro-rx"></block>.</block>
+  <block id="09939f5de1c156803c6295670449beb2" category="paragraph">Sie können neue S3-Buckets hinzufügen, indem Sie auf *Add bucket* klicken. <block ref="24acb8e540fa67d1a53c15525bc66748" category="inline-link-macro-rx"></block>.</block>
+  <block id="fd81bc78e6eb1ed21649501d070de560" category="summary">Sobald Ihre Amazon S3-Arbeitsumgebung im Canvas verfügbar ist, können Sie zusätzliche Buckets direkt aus BlueXP hinzufügen.</block>
+  <block id="9fed572004c981252beb21bc105f5af0" category="doc">S3-Buckets hinzufügen</block>
+  <block id="eec1611e65af5313f39a130a94b37fd3" category="list-text">Doppelklicken Sie im Bildschirm auf die Amazon S3-Arbeitsumgebung, um die Amazon S3 Buckets Overview-Seite anzuzeigen, und klicken Sie auf *Add bucket*.</block>
+  <block id="78724860366c3bfbfc6830cc113707ff" category="inline-image-macro">Ein Screenshot mit den Details einer Amazon S3-Arbeitsumgebung und der Schaltfläche „Bucket hinzufügen“.</block>
+  <block id="3b01b7a48d95707e023a4d4ce3014625" category="paragraph"><block ref="3b01b7a48d95707e023a4d4ce3014625" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7905235e0b9d47c87993bfcf15c3dd50" category="paragraph">Die Seite _Add bucket_ wird angezeigt.</block>
+  <block id="00a88d7e893489f7027efb13ae84d764" category="inline-image-macro">Ein Screenshot mit der Seite „Bucket hinzufügen“, in dem Sie Ihren eigenen Amazon S3-Bucket erstellen können.</block>
+  <block id="10c37be4b76c325674d0f1f15302365a" category="paragraph"><block ref="10c37be4b76c325674d0f1f15302365a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3528909a31eaf26ed1ec5e91d30680b6" category="list-text">Geben Sie auf der Seite Add Bucket die erforderlichen Informationen zum Erstellen des Buckets ein und klicken Sie auf *Apply*.</block>
+  <block id="0b70185623faa55e384834695ae8d364" category="list-text">Geben Sie den Namen ein, den Sie für den Bucket verwenden möchten.</block>
+  <block id="597de3cf2a2ed6f9bd6e82c0a7a73572" category="inline-link">Es gibt unterschiedliche Konten, die Sie zu BlueXP hinzugefügt haben</block>
+  <block id="085c603a33e2a93fe33cfaa53bde3bed" category="list-text">Wählen Sie das AWS-Konto aus, das der Eigentümer des Buckets sein wird. Dies kann das primäre Konto sein, in dem der Connector bereitgestellt wurde, oder es kann ein sein<block ref="04ca776e6b618b849c3932f8646ac1fb" category="inline-link-rx"></block>.</block>
+  <block id="0122311ed1a57dce15e992365a9457e2" category="list-text">Wählen Sie die AWS-Region aus, in der der Bucket erstellt werden soll.</block>
+  <block id="949a961e422bda6c898ac6590ce47cb8" category="inline-link">Weitere Informationen zur Objektsperrung finden Sie in der Amazon S3 Dokumentation</block>
+  <block id="d87ea88e84d5837b06e24d3c7e16b421" category="list-text">Optional können Sie die S3-Objektsperrung auf dem Bucket aktivieren, um Objekte mithilfe eines WORM-Modells (Write-Once-Read-Many) zu speichern. Wenn Sie die Objektsperrung verwenden möchten, müssen Sie sie beim Erstellen des Buckets aktivieren. Durch Aktivieren der Objektsperre wird auch die Versionierung aktiviert.<block ref="1399ee2a35dec21bba05889732a3a632" category="inline-link-rx"></block>.</block>
+  <block id="157d206d0cc91be4095d98f9df679cf4" category="paragraph">Der Bucket wird erstellt.</block>
+  <block id="a73444cc5dd6f6171b437eedb6a7d462" category="inline-link-macro">Erfahren Sie mehr über das Ändern von Bucket-Einstellungen</block>
+  <block id="daf6241c571815ccb6a2fba56c3d3d3a" category="paragraph">Sie können Versioning, Tags oder Verschlüsselung nicht manuell konfigurieren, wenn Sie zunächst einen Bucket hinzufügen. Nachdem der Bucket erstellt wurde, können Sie diese anderen Eigenschaften des Buckets konfigurieren. <block ref="b8a8855fb27be3598054e27761fb286f" category="inline-link-macro-rx"></block>.</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp bietet Unterstützung für BlueXP auf verschiedene Weise. Umfassende kostenlose Self-Support-Optionen stehen rund um die Uhr zur Verfügung, wie etwa Knowledge Base-Artikel (KB) und ein Community-Forum. Ihre Support-Registrierung umfasst technischen Remote-Support über Web-Ticketing.</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">Holen Sie sich Hilfe</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp bietet Unterstützung für BlueXP und seine Cloud-Services auf unterschiedliche Weise. Umfassende kostenlose Self-Support-Optionen stehen rund um die Uhr zur Verfügung, wie etwa Knowledge Base-Artikel (KB) und ein Community-Forum. Ihre Support-Registrierung umfasst technischen Remote-Support über Web-Ticketing.</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">Nutzen Sie Self-Support-Optionen</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">Diese Optionen sind kostenlos verfügbar, 24 Stunden am Tag, 7 Tage die Woche:</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">Wissensdatenbank</block>
+  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">Suchen Sie in der BlueXP Knowledge Base nach hilfreichen Artikeln zur Fehlerbehebung.</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">Communitys</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">Treten Sie der BlueXP Community bei, um laufende Diskussionen zu verfolgen oder neue zu erstellen.</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">Dokumentation</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">Die BlueXP-Dokumentation, die Sie gerade anzeigen.</block>
+  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">Mailto:ng-cloudmanager-feedback@netapp.com[Feedback email]</block>
+  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">Wir wissen Ihre Vorschläge zu schätzen. Senden Sie uns Ihr Feedback, um BlueXP zu verbessern.</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">Erstellen Sie einen Fall mit dem NetApp Support</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">Zusätzlich zu den oben genannten Self-Support-Optionen können Sie gemeinsam mit einem NetApp Support-Experten eventuelle Probleme nach der Aktivierung des Supports beheben.</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">Bevor Sie beginnen</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">Erfahren Sie, wie Sie sich für Support registrieren</block>
+  <block id="1012a287397c66025d7748edf06a36e2" category="paragraph">Um die * Case erstellen*-Fähigkeit zu verwenden, müssen Sie zuerst eine einmalige Registrierung Ihrer BlueXP Account ID-Seriennummer (dh 960xxxx) mit NetApp <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>.</block>
+  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">Klicken Sie in BlueXP auf *Hilfe &gt; Support*.</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">Wählen Sie auf der Seite *Ressourcen* eine der verfügbaren Optionen unter Technischer Support:</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">Klicken Sie auf *Rufen Sie uns an*, wenn Sie mit jemandem am Telefon sprechen möchten. Sie werden zu einer Seite auf netapp.com weitergeleitet, auf der die Telefonnummern aufgeführt sind, die Sie anrufen können.</block>
+  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">Klicken Sie auf *Fall erstellen*, um ein Ticket bei einem NetApp Support Spezialisten zu öffnen:</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">*NetApp Support Site Account*: Wählen Sie das entsprechende NSS-Konto für die Person aus, die den Support-Case eröffnet. Diese Person ist der primäre Ansprechpartner bei NetApp, der Sie sich zusätzlich zu den unten aufgeführten zusätzlichen E-Mails mit anderen Kunden in Verbindung setzen kann.</block>
+  <block id="d950fb930d7f7e6bfdda1b91b4639a02" category="paragraph">Wenn Ihr NSS-Konto nicht angezeigt wird, können Sie im Support-Bereich von BlueXP zur Registerkarte *NSS Management* navigieren, um es dort hinzuzufügen.</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Service*: Wählen Sie den Dienst aus, mit dem das Problem verknüpft ist. Beispiel: BlueXP, wenn es sich um ein Problem des technischen Supports mit Workflows oder Funktionen im Service handelt.</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*Arbeitsumgebung*: Wählen Sie *Cloud Volumes ONTAP* oder *On-Prem* und anschließend die zugehörige Arbeitsumgebung aus.</block>
+  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">Die Liste der Arbeitsumgebungen liegt im Bereich des BlueXP-Kontos, des Arbeitsbereichs und des Connectors, den Sie im oberen Banner des Dienstes ausgewählt haben.</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*Case Priority*: Wählen Sie die Priorität für den Fall, der niedrig, Mittel, hoch oder kritisch sein kann.</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">Wenn Sie weitere Informationen zu diesen Prioritäten wünschen, bewegen Sie den Mauszeiger über das Informationssymbol neben dem Feldnamen.</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*Problembeschreibung*: Geben Sie eine detaillierte Beschreibung Ihres Problems an, einschließlich aller anwendbaren Fehlermeldungen oder Fehlerbehebungsschritte, die Sie durchgeführt haben.</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*Zusätzliche E-Mail-Adressen*: Geben Sie zusätzliche E-Mail-Adressen ein, wenn Sie jemand anderes auf dieses Problem aufmerksam machen möchten.</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">Screenshot aus dem Formular „Create a Case“, in dem Sie einen Case beim NetApp Support erstellen können</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Nachdem Sie fertig sind</block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">Es wird ein Popup-Fenster mit der Support-Fallnummer angezeigt. Ein NetApp Support-Experte prüft Ihren Fall und macht Sie umgehend mit.</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">Für eine Historie Ihrer Supportfälle können Sie auf *Einstellungen &gt; Timeline* klicken und nach Aktionen mit dem Namen „Support Case erstellen“ suchen. Mit einer Schaltfläche ganz rechts können Sie die Aktion erweitern, um Details anzuzeigen.</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">Es ist möglich, dass beim Versuch, einen Fall zu erstellen, möglicherweise die folgende Fehlermeldung angezeigt wird:</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">„Sie sind nicht berechtigt, einen Fall für den ausgewählten Service zu erstellen.“</block>
+  <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">Dieser Fehler könnte bedeuten, dass das NSS-Konto und das Unternehmen des Datensatzes, mit dem es verbunden ist, nicht das gleiche Unternehmen des Eintrags für die BlueXP Account Seriennummer (dh 960xxxx) oder Seriennummer der Arbeitsumgebung. Sie können Ihre Liste der NSS-Konten oben im *Case erstellen*-Formular überprüfen, um die richtige Übereinstimmung zu finden, oder Sie können Hilfe mit einer der folgenden Optionen suchen:</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">Verwenden Sie den Chat im Produkt</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">Übermitteln eines nicht-technischen Cases unter<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="898e35e1a4bf4b025c3edec879439b08" category="section-title">Managen Ihrer Support-Cases (Vorschau)</block>
+  <block id="8b74b053fbeeff5c3b6f4991cb1d028d" category="paragraph">Sie können aktive und gelöste Support-Cases direkt über BlueXP anzeigen und managen. Sie können die mit Ihrem NSS-Konto und Ihrem Unternehmen verbundenen Fälle verwalten.</block>
+  <block id="394ef093ad3259b9ff0fe7406f015b83" category="paragraph">Case Management ist als Vorschau verfügbar. Wir planen, diese Erfahrungen weiter zu verbessern und in zukünftigen Versionen Verbesserungen hinzuzufügen. Bitte senden Sie uns Ihr Feedback über den Product-Chat.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Beachten Sie Folgendes:</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">Das Case-Management-Dashboard oben auf der Seite bietet zwei Ansichten:</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">Die Ansicht auf der linken Seite zeigt die Gesamtzahl der Fälle, die in den letzten 3 Monaten durch das von Ihnen angegebene NSS-Benutzerkonto eröffnet wurden.</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">Die Ansicht auf der rechten Seite zeigt die Gesamtzahl der in den letzten 3 Monaten auf Unternehmensebene eröffneten Fälle basierend auf Ihrem NSS-Benutzerkonto an.</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">Die Ergebnisse in der Tabelle geben die Fälle in Bezug auf die ausgewählte Ansicht wieder.</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">Sie können interessante Spalten hinzufügen oder entfernen und den Inhalt von Spalten wie Priorität und Status filtern. Andere Spalten bieten nur Sortierfunktionen.</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">Weitere Informationen erhalten Sie in den Schritten unten.</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">Auf Fallebene bieten wir die Möglichkeit, Fallnotizen zu aktualisieren oder einen Fall zu schließen, der sich noch nicht im Status „Geschlossen“ oder „Geschlossen“ befindet.</block>
+  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">Klicken Sie auf *Case Management* und fügen Sie bei Aufforderung Ihr NSS-Konto zu BlueXP hinzu.</block>
+  <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">Auf der Seite *Case Management* werden offene Fälle im Zusammenhang mit dem NSS-Konto angezeigt, das mit Ihrem BlueXP Benutzerkonto verknüpft ist. Dies ist das gleiche NSS-Konto, das oben auf der Seite *NSS Management* angezeigt wird.</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">Ändern Sie optional die in der Tabelle angezeigten Informationen:</block>
+  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">Klicken Sie unter *Organizations-Fälle* auf *Ansicht*, um alle mit Ihrem Unternehmen verbundenen Fälle anzuzeigen.</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">Ändern Sie den Datumsbereich, indem Sie einen genauen Datumsbereich oder einen anderen Zeitrahmen auswählen.</block>
+  <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">Ein Screenshot der Option über der Tabelle auf der Seite Case Management, mit der Sie einen genauen Datumsbereich oder die letzten 7 Tage, 30 Tage oder 3 Monate auswählen können.</block>
+  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">Filtern Sie den Inhalt der Spalten.</block>
+  <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">Ein Screenshot der Filteroption in der Spalte Status, in dem Sie Fälle filtern können, die einem bestimmten Status entsprechen, z. B. aktiv oder Geschlossen.</block>
+  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">Das Plus-Symbol, das in der Tabelle angezeigt wird</block>
+  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">Ändern Sie die Spalten, die in der Tabelle angezeigt werden, indem Sie auf klicken <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> Und wählen Sie dann die Spalten, die Sie anzeigen möchten.</block>
+  <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">Ein Screenshot mit den Spalten, die Sie in der Tabelle anzeigen können.</block>
+  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">Ein Symbol mit drei Punkten, das in der letzten Spalte der Tabelle angezeigt wird</block>
+  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">Managen Sie einen bestehenden Fall, indem Sie auf klicken <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> Und eine der verfügbaren Optionen auswählen:</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*Fall anzeigen*: Vollständige Details zu einem bestimmten Fall anzeigen.</block>
+  <block id="482429810c2b00a4fa04f9900c560232" category="list-text">*Aktennotizen aktualisieren*: Geben Sie zusätzliche Details zu Ihrem Problem an.</block>
+  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*Fall schließen*: Geben Sie Details darüber an, warum Sie den Fall schließen und klicken Sie auf *Fall schließen*.</block>
+  <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">Ein Screenshot, der die Aktionen zeigt, die Sie nach Auswahl des Menüs in der letzten Spalte der Tabelle durchführen können.</block>
+  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Rechtliche Hinweise</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Rechtliche Hinweise ermöglichen den Zugriff auf Copyright-Erklärungen, Marken, Patente und mehr.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Urheberrecht</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marken</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, das NETAPP Logo und die auf der NetApp Markenseite aufgeführten Marken sind Marken von NetApp Inc. Andere Firmen- und Produktnamen können Marken der jeweiligen Eigentümer sein.</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Patente</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Eine aktuelle Liste der NetApp Patente finden Sie unter:</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Datenschutzrichtlinie</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Open Source</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">In den Benachrichtigungsdateien finden Sie Informationen zu Urheberrechten und Lizenzen von Drittanbietern, die in der NetApp Software verwendet werden.</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">Hinweis für BlueXP</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="5617fc4c90db2216d4ba9da3ed61d8ee" category="summary">Nach der Erkennung von S3 Buckets in BlueXP können Sie NetApp Datenservices für Backup, Tiering, Klassifizierung und Datensynchronisierung verwenden.</block>
+  <block id="49b9d9b89078e5e4f47991c877526750" category="doc">Nutzen Sie NetApp Datenservices mit S3 Buckets</block>
+  <block id="db0f7065ba0a96411a0de05280ec7352" category="list-text">Backup von Daten aus Ihren lokalen ONTAP- und Cloud Volumes ONTAP-Systemen in S3 Objekt-Storage; *Cloud-Backup*</block>
+  <block id="7eb41a611de377805e9a7df9b3ae691b" category="paragraph">Um zu beginnen, gehen Sie auf den Bildschirm und ziehen Sie eine lokale ONTAP oder Cloud Volumes ONTAP Arbeitsumgebung in Ihrer Amazon S3 Arbeitsumgebung.</block>
+  <block id="7b7fcd600f1d926ca9fe6a7cb21750f2" category="inline-link">Erfahren Sie mehr über die Sicherung von ONTAP Daten in Amazon S3 Storage</block>
+  <block id="16c28e3d84a53771a1a9299bf39e52c2" category="paragraph"><block ref="4ecde652b89e6f04e3058b0cb9af264c" category="inline-link-rx"></block>.</block>
+  <block id="7202459e7043ba4b6f866b6aa920e679" category="list-text">Tiering * für das Tiering inaktiver Daten von lokalen ONTAP-Clustern auf S3 Objekt-Storage</block>
+  <block id="3e0f8335010aedcfb82affccaacd20ec" category="paragraph">Um zu beginnen, gehen Sie auf den Bildschirm und ziehen Sie eine lokale ONTAP-Arbeitsumgebung in Ihrer Amazon S3-Arbeitsumgebung.</block>
+  <block id="a9dee648c451dbc4fdeeab5bcb9014ed" category="inline-link">Weitere Informationen zum Tiering von ONTAP Daten in Amazon S3 Storage</block>
+  <block id="9858a8b4f4f88f76a27f43472f5f6ca4" category="paragraph"><block ref="fa191a4a135c670d0161f99d5ad270e4" category="inline-link-rx"></block>.</block>
+  <block id="0e1d535f7ffeb46d1cedce4380540ece" category="list-text">Verwenden Sie *Cloud Sync*, um Daten mit oder von S3 Buckets zu synchronisieren.</block>
+  <block id="b1e27059ba7694353c38efd583f70d7c" category="paragraph">Um zu beginnen, gehen Sie auf den Bildschirm und ziehen Sie die Quelle Arbeitsumgebung auf die Ziel-Arbeitsumgebung. Ihre Amazon S3-Arbeitsumgebung kann als Quelle oder als Ziel dienen.</block>
+  <block id="ab9e49315276ae32c73ed19323492c14" category="paragraph">Sie können auch Ihre Amazon S3-Arbeitsumgebung auswählen und im Servicebereich auf *Daten synchronisieren* klicken, um Daten mit oder aus S3-Buckets zu synchronisieren.</block>
+  <block id="d7ac8297012a05979b15d24f9d3b130c" category="inline-link">Erfahren Sie mehr über den Cloud Sync Service</block>
+  <block id="1bd2d5ff3aeebe1a238c886f7388e42f" category="paragraph"><block ref="9349c5ab3057a0ff71d35b794d6794a5" category="inline-link-rx"></block>.</block>
+  <block id="024e60ab8f7a88270d46c6aed054f6bd" category="list-text">Verwenden Sie *Cloud Data Sense*, um Ihre S3-Buckets nach persönlichen und sensiblen Daten zu scannen. Cloud Data Sense kann jeden Bucket des Kontos scannen, unabhängig davon, ob er für eine NetApp Lösung erstellt wurde.</block>
+  <block id="55bd7bd6bf396c28ae8aca1611f8ee53" category="paragraph">Wählen Sie zunächst Ihre Amazon S3-Arbeitsumgebung aus, und wählen Sie im Bereich *Klassifizierung* des Servicebereichs die entsprechende Option aus, um das Scannen Ihrer S3-Buckets zu starten.</block>
+  <block id="febefe350001907b76b53ef88b63361e" category="inline-link">Erfahren Sie mehr über den Cloud Data Sense Service</block>
+  <block id="3ef78a45208afe4b2f2ca2cdade6c100" category="paragraph"><block ref="4ba69bfe1627585dab52e6f3cbb737bc" category="inline-link-rx"></block>.</block>
+  <block id="f5b5c580cdea371eec20c3e34f9c28d4" category="summary">Einstieg in die Nutzung von Amazon S3 Storage mit Ihrem BlueXP System (ehemals Cloud Manager)</block>
+  <block id="3bcfa77ba520ecdb90dbb673cc23cb5e" category="doc">Amazon S3 Storage-Dokumentation</block>
+  <block id="f54c8c1223f73d87869999847d1ae49e" category="summary">Erfahren Sie mehr über die Neuerungen bei Amazon S3 Storage in BlueXP.</block>
+  <block id="9a8d5d2b68f540bdc8d48d6f59172160" category="doc">Neuerungen bei Amazon S3 Storage in BlueXP</block>
+  <block id="d0693e7bf28b7bbc94287cee0e4b0768" category="section-title">5 März 2023</block>
+  <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">Möglichkeit zum Hinzufügen neuer Buckets aus BlueXP</block>
+  <block id="c07c4e2e029d6d6eb829c29902cb63ff" category="inline-link">So fügen Sie neue Amazon S3 Buckets hinzu</block>
+  <block id="91402ca539ef196ec17265c55db694dc" category="paragraph">Sie können Amazon S3 Buckets seit geraumer Zeit auf dem BlueXP Canvas anzeigen. Sie können jetzt neue Buckets hinzufügen und Eigenschaften für vorhandene Buckets direkt aus BlueXP ändern.<block ref="2c8909472f79d70b0988a1b1340a52c9" category="inline-link-rx"></block>.</block>
+  <block id="d83ada820c6219a6100ac0d45a42417f" category="summary">Sobald Ihre Amazon S3-Arbeitsumgebung im Canvas verfügbar ist, können Sie einige Bucket-Eigenschaften direkt aus BlueXP ändern.</block>
+  <block id="03d1d7c5f3e9143c651013d5a8df19ed" category="doc">Ändern der S3-Bucket-Einstellungen</block>
+  <block id="98b683df18d829ab5d0c1a0667ef090e" category="paragraph">Beachten Sie, dass Sie den Bucket-Namen, das AWS-Konto, die Region oder die Einstellung der Objektsperre nicht ändern können.</block>
+  <block id="c1e90160a62fa1921449efb18231f40d" category="paragraph">Zu den Bucket-Eigenschaften, die Sie ändern können, gehören:</block>
+  <block id="7aa72240c8357c1ccb645c4ed54fc655" category="list-text">Gibt an, ob die Versionierung für alle Objekte im Bucket aktiviert oder deaktiviert ist.</block>
+  <block id="d92cc14996cce4261a7042bf7143a0eb" category="list-text">Sie können Tags auf die Objekte anwenden, die dem Bucket hinzugefügt werden.</block>
+  <block id="7178af2148dd1317957ac72803a11101" category="list-text">Gibt an, ob neue Objekte, die dem Bucket hinzugefügt wurden, verschlüsselt werden, und die Option für die Verschlüsselung.</block>
+  <block id="258dd0211ab217210a7ac3a749ffe94e" category="paragraph">Sie können diese Bucket-Einstellungen direkt in BlueXP ändern, indem Sie auf klicken <block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> &gt; *Details verwalten* für einen Eimer.</block>
+  <block id="03e28e82e5ae57af9a5632a915905ac6" category="inline-image-macro">Ein Screenshot, der zeigt, wie die Schaltfläche „Manager-Details“ zum Bearbeiten der Bucket-Eigenschaften ausgewählt wird.</block>
+  <block id="b1663f0a11aefa655b800e4525611bc7" category="paragraph"><block ref="b1663f0a11aefa655b800e4525611bc7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c1271f859cb12c5ef9b0c1934c2075f1" category="section-title">Ändern Sie die Versionseinstellung</block>
+  <block id="bb818b7bb7e952216e5edeed36b98b25" category="paragraph">Bei der Versionierung können Sie mehrere Versionen eines Objekts in einem Bucket aufbewahren, sodass Sie versehentlich gelöschte oder überschrieben Objekte wiederherstellen können. Sie können die Versionseinstellung für zukünftige Objekte ändern, wenn sie zum Bucket hinzugefügt werden. Durch Ändern der Versionseinstellung wird der Wert für vorhandene Objekte nicht geändert.</block>
+  <block id="753bbae9e70bd29b4b752a888c7f83aa" category="inline-link">Weitere Informationen zur Versionierung finden Sie in der Dokumentation zu Amazon S3</block>
+  <block id="c3d2c68ea0cdfed971d8f2a0859913e0" category="paragraph">Die Versionierung ist in neuen, von BlueXP erstellten Buckets standardmäßig deaktiviert, es sei denn, Sie haben die Objektsperre beim Erstellen des Buckets aktiviert.<block ref="e0ba6451fd1bf2a059fdd9f9e325cee9" category="inline-link-rx"></block>.</block>
+  <block id="aab47603bd3be752c59a115ffb41d22a" category="paragraph">Wenn Sie die Versionierung nach der Aktivierung vorübergehend oder dauerhaft beenden möchten, können Sie den Status „ausgesetzt“ auswählen. Sie können die Versionierung nicht deaktivieren, sobald sie aktiviert wurde.</block>
+  <block id="06bf9930fc8459e052599e1b5f0a1a7f" category="inline-image-macro">Ein Screenshot, der zeigt, wie die Versionseinstellung für einen Bucket geändert wird.</block>
+  <block id="41270662bdf0da5996f1a870b9ab5b44" category="paragraph"><block ref="41270662bdf0da5996f1a870b9ab5b44" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="03b6a6f1e13411d253ae1983fe76fa25" category="section-title">Tags für Objekte im Bucket hinzufügen oder ändern</block>
+  <block id="e3463088bdb53d30f897b3ff783db6e9" category="paragraph">Tags sind Metadaten, mit denen Sie Ressourcen gruppieren können, um Applikationen, Umgebungen, Regionen, Cloud-Provider und vieles mehr zu identifizieren. Tags besteht aus einem Tag-Schlüssel und einem Tag-Wert. Sie können Tags zu einem Bucket hinzufügen, sodass die Tags auf Objekte angewendet werden, wenn sie dem Bucket hinzugefügt werden. Sie können auch Tags und Tag-Werte ändern und löschen.</block>
+  <block id="07472cd51c11ae72b9be3780b88a4452" category="inline-link">Weitere Informationen zum Tagging finden Sie in der Amazon S3 Dokumentation</block>
+  <block id="8cca6242879172b9837873b7da8c2b83" category="paragraph">Tags werden in neuen, von BlueXP erstellten Buckets standardmäßig deaktiviert.<block ref="4051f5e277970bf30a28585f8f548269" category="inline-link-rx"></block>.</block>
+  <block id="b1a649b71c6a44f55f012f92ab2c0f41" category="inline-image-macro">Ein Screenshot, der zeigt, wie ein neues Tag-Schlüssel-/Wertepaar für einen Bucket hinzugefügt wird.</block>
+  <block id="85aee05e1be511f705baeadd5c969d87" category="paragraph"><block ref="85aee05e1be511f705baeadd5c969d87" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="200e9bd07e779ca538757ee7a91c07d5" category="paragraph">Nachdem Sie ein Tag hinzugefügt haben, klicken Sie auf *Übernehmen*, um Ihre Änderungen zu speichern. Wenn Sie weitere Tags hinzufügen möchten, klicken Sie auf *Neuen Tag hinzufügen*. Sie können bis zu 10 Tags pro Bucket hinzufügen.</block>
+  <block id="26d7220e95a948de8f8bee2eb2c05ec8" category="section-title">Ändern Sie die Verschlüsselungseinstellung</block>
+  <block id="a11df6361d05660cc0ba1f6c0558de49" category="paragraph">Die serverseitige Verschlüsselung ermöglicht die Verschlüsselung von Daten am Amazon S3-Ziel. Amazon S3 verschlüsselt Ihre Daten auf Objektebene beim Schreiben auf Festplatte und entschlüsselt sie beim Zugriff auf sie. Sie können die Verschlüsselungseinstellung ändern, die für zukünftige Objekte verwendet wird, wenn sie dem Bucket hinzugefügt werden.</block>
+  <block id="2c147b9d28e184c5c63a643164663ed6" category="inline-link">Weitere Informationen zur serverseitigen Verschlüsselung finden Sie in der Amazon S3 Dokumentation</block>
+  <block id="c98b354ee5df11c8b64050d46a531282" category="paragraph">Die Verschlüsselung ist standardmäßig unter Verwendung von „Amazon S3 Managed Keys (SSE-S3)“ in neuen Buckets aktiviert, die von BlueXP erstellt wurden.<block ref="af46c8e128e791b9a73e046d29dfa446" category="inline-link-rx"></block>.</block>
+  <block id="0c5273d88d0edaf0cc1894d20fdd17b3" category="paragraph">Alternativ können Sie die Verschlüsselung über den „AWS Key Management Service Key (SSE-KMS)“ aktivieren. Eine Verschlüsselung ist auch über Ihre eigenen vom Kunden bereitgestellten Schlüssel (SSE-C) möglich, doch ist diese Funktion nicht über die BlueXP UI verfügbar – Sie müssen die Benutzeroberfläche von Amazon verwenden.</block>
+  <block id="62391a98e2571a2594662b67b2d076c0" category="inline-image-macro">Ein Screenshot, der zeigt, wie der für einen Bucket verwendete Verschlüsselungstyp geändert wird.</block>
+  <block id="9aaf4516b7333dbc25618cc5541d6c28" category="paragraph"><block ref="9aaf4516b7333dbc25618cc5541d6c28" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f76b7a6398238187f9ab7139f99efa9e" category="paragraph">Wenn Sie „AWS Key Management Service Key (SSE-KMS)“ wählen, können Sie einen bereits erstellten AWS KMS Key oder einen AWS KMS Key ARN (Amazon Resource Name) verwenden.</block>
+  <block id="4913270dff142c18b7deff3e020455bb" category="inline-image-macro">Ein Screenshot, der zeigt, wie alternative Verschlüsselungseinstellungen für einen Bucket ausgewählt werden.</block>
+  <block id="bf0f1d13b25a835c25ca6497481b616a" category="paragraph"><block ref="bf0f1d13b25a835c25ca6497481b616a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9565d6f3c6daab6a85ad88d83d6afaa3" category="inline-link">Weitere Informationen zum AWS Key Management Service finden Sie in der Amazon S3 Dokumentation</block>
+  <block id="6b9ad32bca511ce2ad2c097b7d9a4a78" category="inline-link">Verwendung von Kundenschlüsseln zur Versus AWS Schlüssel</block>
+  <block id="2a99f2c69d7ca6830beafd559188a1d0" category="paragraph"><block ref="6680152fb638c9052ac94d98bd762821" category="inline-link-rx"></block> Und über<block ref="ff2983fb7d6b017ffe909b1c26efe536" category="inline-link-rx"></block>.</block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">Bevor Sie einen Support-Fall beim technischen Support von NetApp eröffnen können, müssen Sie BlueXP ein NetApp Support Site Konto hinzufügen und sich dann für den Support registrieren.</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Für den Support anmelden</block>
+  <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">Bevor Sie einen Support-Fall beim technischen Support von NetApp eröffnen können, müssen Sie BlueXP einen NetApp Support Site Account (NSS) hinzufügen und sich dann für den Support registrieren.</block>
+  <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">Unterstützung für Cloud-Provider-Lösungen</block>
+  <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">Technische Unterstützung für die folgenden Lösungen von Cloud-Providern, die Sie in BlueXP integriert haben, finden Sie in der BlueXP-Dokumentation zu diesem Produkt unter „Hilfe“.</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX für ONTAP</block>
+  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Dateien</block>
+  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
+  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service für Google Cloud</block>
+  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Übersicht über die Support-Registrierung</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">Es gibt zwei Registrierungsformulare, um die Support-Berechtigung zu aktivieren:</block>
+  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">Registrieren Ihres BlueXP-Konto-ID-Support-Abonnements (Ihre 20-stellige Seriennummer 960xxxxxxxxx auf der Seite Support-Ressourcen in BlueXP).</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">Dies dient als Ihre einzige Support-Abonnement-ID für jeden Service in BlueXP. Jedes BlueXP-Abonnement für Support auf Kontoebene muss registriert werden.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">Registrieren der Cloud Volumes ONTAP Seriennummern für ein Abonnement auf dem Markt Ihres Cloud-Providers (dies sind 20-stellige Seriennummern von 909201xxxxxx).</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">Diese Seriennummern werden als _PAYGO Seriennummern_ bezeichnet und werden zum Zeitpunkt der Cloud Volumes ONTAP Implementierung von BlueXP generiert.</block>
+  <block id="9d4125dc88bb9db6eb4be939905761ce" category="paragraph">Durch das Registrieren beider Arten von Seriennummern können Kunden Funktionen wie das Öffnen von Support-Tickets und die automatische Erstellung von Support-Cases nutzen.</block>
+  <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">Ihre Anmeldung hängt davon ab, ob Sie ein neuer oder bereits bestehender Kunde oder Partner sind.</block>
+  <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">Bestehender Kunde oder Partner</block>
+  <block id="76928f97884b4332b83c5be9b99d93d3" category="paragraph">Als bestehender NetApp Kunde oder Partner können Sie mit Ihrem NSS SSO-Konto (NetApp Support Site) die oben genannten Registrierungen durchführen. Im Support Dashboard stellt BlueXP eine *NSS Management*-Seite zur Verfügung, auf der Sie Ihr NSS-Konto hinzufügen können. Sobald Sie Ihr NSS-Konto hinzugefügt haben, registriert BlueXP diese Seriennummern automatisch für Sie.</block>
+  <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">Erfahren Sie, wie Sie Ihr NSS-Konto hinzufügen</block>
+  <block id="8d80298f51b7ff2da78e26e60195c7a3" category="paragraph"><block ref="cbec7c1a4a2acff5e84457dd449ac01d" category="inline-xref-macro-rx"></block>.</block>
+  <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">Neu bei NetApp</block>
+  <block id="679f2cae4657f177cc89458d49c97e5f" category="paragraph">Wenn Sie neu bei NetApp sind, müssen Sie eine einmalige Registrierung Ihrer BlueXP Account ID Seriennummer auf der Support-Registrierungsseite von NetApp abschließen. Sobald Sie diese Registrierung abgeschlossen und ein neues NSS-Konto erstellt haben, können Sie dieses Konto in BlueXP verwenden, um sich in Zukunft automatisch zu registrieren.</block>
+  <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">Erfahren Sie, wie Sie sich mit NetApp anmelden können</block>
+  <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>.</block>
+  <block id="a92ec860f505b318fd0f0eba6165d607" category="section-title">Fügen Sie ein NSS-Konto zu BlueXP hinzu</block>
+  <block id="f2575f6d19024f7288cf78d7dc5b3db9" category="paragraph">Über das Support Dashboard können Sie Ihre NetApp Support Site Konten zur Verwendung mit BlueXP hinzufügen und managen.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Wenn Sie über ein Konto auf Kundenebene verfügen, können Sie ein oder mehrere NSS-Konten hinzufügen.</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Wenn Sie einen Partner- oder Reseller-Account haben, können Sie ein oder mehrere NSS-Konten hinzufügen, können aber nicht neben Kunden-Level Accounts hinzugefügt werden.</block>
+  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">Klicken Sie oben rechts in der BlueXP-Konsole auf das Hilfesymbol, und wählen Sie *Support*.</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Ein Screenshot des Hilfemenü, in dem Support die erste Option aufgeführt ist</block>
+  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">Klicken Sie auf *NSS Management &gt; NSS-Konto hinzufügen*.</block>
+  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">Wenn Sie dazu aufgefordert werden, klicken Sie auf *Weiter*, um auf eine Microsoft-Login-Seite umgeleitet zu werden.</block>
+  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp verwendet Microsoft Azure Active Directory als Identitäts-Provider für Authentifizierungsservices, die sich speziell für Support und Lizenzierung entscheiden.</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">Geben Sie auf der Anmeldeseite die registrierte E-Mail-Adresse und das Kennwort Ihrer NetApp Support Site an, um den Authentifizierungsvorgang durchzuführen.</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">Mit diesen Aktionen kann BlueXP Ihr NSS-Konto für Dinge wie Lizenzdownloads, Softwareaktualisierungs-Verifizierung und zukünftige Support-Registrierungen verwenden.</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">Das NSS-Konto muss ein Konto auf Kundenebene sein (kein Gast- oder Temporärkonto). Sie können mehrere NSS-Konten auf Kundenebene haben.</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">Es kann nur ein NSS-Konto vorhanden sein, wenn es sich bei diesem Konto um ein Partner-Level-Konto handelt. Wenn Sie versuchen, NSS-Konten auf Kundenebene hinzuzufügen und ein Konto auf Partnerebene vorhanden ist, erhalten Sie die folgende Fehlermeldung:</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">„Der NSS-Kundentyp ist für dieses Konto nicht zulässig, da es bereits NSS-Benutzer unterschiedlichen Typs gibt.“</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">Dasselbe gilt, wenn Sie bereits NSS-Konten auf Kundenebene haben und versuchen, ein Konto auf Partnerebene hinzuzufügen.</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">Bei der erfolgreichen Anmeldung wird NetApp den NSS-Benutzernamen speichern.</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Ein Symbol von drei horizontalen Punkten</block>
+  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">Dies ist eine vom System generierte ID, die Ihrer E-Mail zugeordnet ist. Auf der Seite *NSS Management* können Sie Ihre E-Mail über anzeigen <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> Menü.</block>
+  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">Wenn Sie jemals Ihre Anmeldeinformationen aktualisieren müssen, gibt es im auch eine *Anmeldeinformationen aktualisieren*-Option <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> Menü.</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">Wenn Sie diese Option verwenden, werden Sie aufgefordert, sich erneut anzumelden. Beachten Sie, dass das Token für diese Konten nach 90 Tagen abläuft. Eine Benachrichtigung wird gesendet, um Sie darüber zu informieren.</block>
+  <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">Mit NetApp registrieren</block>
+  <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">Wie Sie sich für den NetApp Support registrieren, hängt davon ab, ob Sie bereits über einen NSS Account (NetApp Support Site) verfügen.</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">Bestandskunde mit NSS-Konto</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">Wenn Sie ein NetApp Kunde mit einem NSS-Konto sind, müssen Sie sich lediglich für den Support über BlueXP registrieren.</block>
+  <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">Wenn Sie dies noch nicht getan haben, fügen Sie Ihr NSS-Konto bei BlueXP hinzu.</block>
+  <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">Klicken Sie auf der Seite *Ressourcen* auf *für Support registrieren*.</block>
+  <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">In einem Screenshot, der eine Seriennummer des Kontos und die Option „Register for Support“ anzeigt</block>
+  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">Vorhandener Kunde, aber kein NSS-Konto</block>
+  <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">Wenn Sie bereits Kunde von NetApp mit vorhandenen Lizenzen und Seriennummern sind, aber _no_ NSS Konto, müssen Sie nur ein NSS-Konto erstellen.</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support Site-Formular zur Benutzerregistrierung</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">Erstellen Sie einen NetApp Support Site Account, indem Sie den ausfüllen<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">Stellen Sie sicher, dass Sie die entsprechende Benutzerebene wählen, die normalerweise *NetApp Kunde/Endbenutzer* ist.</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">Kopieren Sie unbedingt die oben verwendete BlueXP-Kontonummer (960xxxx) für das Feld Seriennummer. Dadurch wird die Kontobearbeitung beschleunigt.</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Neu bei NetApp</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Wenn Sie neu bei NetApp sind und über keinen NSS-Account verfügen, befolgen Sie jeden Schritt unten.</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Suchen Sie auf der Seite für die Support-Registrierung die Seriennummer Ihres Kontos.</block>
+  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Die Support-Registrierungs-Website von NetApp</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Navigieren Sie zu<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> Und wählen Sie *Ich bin kein registrierter NetApp Kunde*.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Füllen Sie die Pflichtfelder aus (mit roten Sternchen).</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">Wählen Sie im Feld *Product Line* die Option *Cloud Manager* aus, und wählen Sie dann den gewünschten Abrechnungsanbieter aus.</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">Kopieren Sie die Seriennummer des Kontos von Schritt 2 oben, füllen Sie die Sicherheitsprüfung aus und bestätigen Sie dann, dass Sie die globale Datenschutzrichtlinie von NetApp lesen.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">Zur Fertigstellung dieser sicheren Transaktion wird sofort eine E-Mail an die angegebene Mailbox gesendet. Überprüfen Sie Ihre Spam-Ordner, wenn die Validierungs-E-Mail nicht in wenigen Minuten ankommt.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Bestätigen Sie die Aktion in der E-Mail.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">Indem Sie Ihre Anfrage an NetApp senden, wird Ihnen die Erstellung eines NetApp Support Site Kontos empfohlen.</block>
+  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">Kopieren Sie die oben angegebene Seriennummer (960xxxx) für das Feld „Seriennummer“. Dadurch wird die Kontobearbeitung beschleunigt.</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp sollte sich bei diesem Prozess mit Ihnen in Verbindung setzen. Dies ist eine einmalige Onboarding-Übung für neue Benutzer.</block>
+  <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">Sobald Sie Ihren NetApp Support Site Account besitzen, können Sie im Portal BlueXP diesen NSS-Account für zukünftige Registrierungen hinzufügen.</block>
+  <block id="548428f3d8d7f88cdab312aeb124539b" category="sidebar">Amazon S3 Storage-Dokumente</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Versionshinweise</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Los geht's</block>
+  <block id="e11597621f115e17031710501eefedbc" category="sidebar">Amazon S3 Buckets anzeigen</block>
+  <block id="fd1c68085eeae378471bac9bc817b052" category="sidebar">Management von S3-Buckets</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Wissen und Support</block>
+  <block id="9734d11f1da890ec7434857fd054fb47" category="sidebar">Ändern der Bucket-Einstellungen</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="sidebar">Weitere Informationen</block>
+  <block id="d2febf9b8431d9dfeed5e223021c353e" category="sidebar">Amazon S3 Dokumentation für das Management außerhalb von BlueXP</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs und Community</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp Community</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP-Blog</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Cloud-Webinare</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Alle BlueXP-Dokumentationen</block>
+</blocks>

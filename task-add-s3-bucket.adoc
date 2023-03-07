@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task-add-s3-bucket.html 
+keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
+summary: Sobald Ihre Amazon S3-Arbeitsumgebung im Canvas verfügbar ist, können Sie zusätzliche Buckets direkt aus BlueXP hinzufügen. 
+---
+= S3-Buckets hinzufügen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sobald Ihre Amazon S3-Arbeitsumgebung im Canvas verfügbar ist, können Sie zusätzliche Buckets direkt aus BlueXP hinzufügen.
+
+.Schritte
+. Doppelklicken Sie im Bildschirm auf die Amazon S3-Arbeitsumgebung, um die Amazon S3 Buckets Overview-Seite anzuzeigen, und klicken Sie auf *Add bucket*.
++
+image:screenshot-add-amazon-s3-bucket-button.png["Ein Screenshot mit den Details einer Amazon S3-Arbeitsumgebung und der Schaltfläche „Bucket hinzufügen“."]
+
++
+Die Seite _Add bucket_ wird angezeigt.
+
++
+image:screenshot-add-amazon-s3-bucket.png["Ein Screenshot mit der Seite „Bucket hinzufügen“, in dem Sie Ihren eigenen Amazon S3-Bucket erstellen können."]
+
+. Geben Sie auf der Seite Add Bucket die erforderlichen Informationen zum Erstellen des Buckets ein und klicken Sie auf *Apply*.
++
+.. Geben Sie den Namen ein, den Sie für den Bucket verwenden möchten.
+.. Wählen Sie das AWS-Konto aus, das der Eigentümer des Buckets sein wird. Dies kann das primäre Konto sein, in dem der Connector bereitgestellt wurde, oder es kann ein sein https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["Es gibt unterschiedliche Konten, die Sie zu BlueXP hinzugefügt haben"^].
+.. Wählen Sie die AWS-Region aus, in der der Bucket erstellt werden soll.
+.. Optional können Sie die S3-Objektsperrung auf dem Bucket aktivieren, um Objekte mithilfe eines WORM-Modells (Write-Once-Read-Many) zu speichern. Wenn Sie die Objektsperrung verwenden möchten, müssen Sie sie beim Erstellen des Buckets aktivieren. Durch Aktivieren der Objektsperre wird auch die Versionierung aktiviert. https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html["Weitere Informationen zur Objektsperrung finden Sie in der Amazon S3 Dokumentation"^].
++
+Der Bucket wird erstellt.
+
+
+
+
+
+.Wie es weiter geht
+Sie können Versioning, Tags oder Verschlüsselung nicht manuell konfigurieren, wenn Sie zunächst einen Bucket hinzufügen. Nachdem der Bucket erstellt wurde, können Sie diese anderen Eigenschaften des Buckets konfigurieren. link:task-change-s3-bucket-settings.html["Erfahren Sie mehr über das Ändern von Bucket-Einstellungen"].

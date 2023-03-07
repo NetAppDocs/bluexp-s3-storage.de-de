@@ -1,0 +1,72 @@
+---
+sidebar: sidebar 
+permalink: task-change-s3-bucket-settings.html 
+keywords: s3 buckets, s3 storage, s3 working environment, amazon s3 buckets, amazon s3 working environment 
+summary: Sobald Ihre Amazon S3-Arbeitsumgebung im Canvas verfügbar ist, können Sie einige Bucket-Eigenschaften direkt aus BlueXP ändern. 
+---
+= Ändern der S3-Bucket-Einstellungen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sobald Ihre Amazon S3-Arbeitsumgebung im Canvas verfügbar ist, können Sie einige Bucket-Eigenschaften direkt aus BlueXP ändern.
+
+Beachten Sie, dass Sie den Bucket-Namen, das AWS-Konto, die Region oder die Einstellung der Objektsperre nicht ändern können.
+
+Zu den Bucket-Eigenschaften, die Sie ändern können, gehören:
+
+* Gibt an, ob die Versionierung für alle Objekte im Bucket aktiviert oder deaktiviert ist.
+* Sie können Tags auf die Objekte anwenden, die dem Bucket hinzugefügt werden.
+* Gibt an, ob neue Objekte, die dem Bucket hinzugefügt wurden, verschlüsselt werden, und die Option für die Verschlüsselung.
+
+
+Sie können diese Bucket-Einstellungen direkt in BlueXP ändern, indem Sie auf klicken image:button-horizontal-more.gif["Die Schaltfläche „drei Punkte mehr“"] > *Details verwalten* für einen Eimer.
+
+image:screenshot-edit-amazon-s3-bucket.png["Ein Screenshot, der zeigt, wie die Schaltfläche „Manager-Details“ zum Bearbeiten der Bucket-Eigenschaften ausgewählt wird."]
+
+
+
+== Ändern Sie die Versionseinstellung
+
+Bei der Versionierung können Sie mehrere Versionen eines Objekts in einem Bucket aufbewahren, sodass Sie versehentlich gelöschte oder überschrieben Objekte wiederherstellen können. Sie können die Versionseinstellung für zukünftige Objekte ändern, wenn sie zum Bucket hinzugefügt werden. Durch Ändern der Versionseinstellung wird der Wert für vorhandene Objekte nicht geändert.
+
+Die Versionierung ist in neuen, von BlueXP erstellten Buckets standardmäßig deaktiviert, es sei denn, Sie haben die Objektsperre beim Erstellen des Buckets aktiviert. https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html["Weitere Informationen zur Versionierung finden Sie in der Dokumentation zu Amazon S3"^].
+
+Wenn Sie die Versionierung nach der Aktivierung vorübergehend oder dauerhaft beenden möchten, können Sie den Status „ausgesetzt“ auswählen. Sie können die Versionierung nicht deaktivieren, sobald sie aktiviert wurde.
+
+image:screenshot-amazon-s3-versioning.png["Ein Screenshot, der zeigt, wie die Versionseinstellung für einen Bucket geändert wird."]
+
+
+
+== Tags für Objekte im Bucket hinzufügen oder ändern
+
+Tags sind Metadaten, mit denen Sie Ressourcen gruppieren können, um Applikationen, Umgebungen, Regionen, Cloud-Provider und vieles mehr zu identifizieren. Tags besteht aus einem Tag-Schlüssel und einem Tag-Wert. Sie können Tags zu einem Bucket hinzufügen, sodass die Tags auf Objekte angewendet werden, wenn sie dem Bucket hinzugefügt werden. Sie können auch Tags und Tag-Werte ändern und löschen.
+
+Tags werden in neuen, von BlueXP erstellten Buckets standardmäßig deaktiviert. https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-tagging.html["Weitere Informationen zum Tagging finden Sie in der Amazon S3 Dokumentation"^].
+
+image:screenshot-amazon-s3-tags.png["Ein Screenshot, der zeigt, wie ein neues Tag-Schlüssel-/Wertepaar für einen Bucket hinzugefügt wird."]
+
+Nachdem Sie ein Tag hinzugefügt haben, klicken Sie auf *Übernehmen*, um Ihre Änderungen zu speichern. Wenn Sie weitere Tags hinzufügen möchten, klicken Sie auf *Neuen Tag hinzufügen*. Sie können bis zu 10 Tags pro Bucket hinzufügen.
+
+
+
+== Ändern Sie die Verschlüsselungseinstellung
+
+Die serverseitige Verschlüsselung ermöglicht die Verschlüsselung von Daten am Amazon S3-Ziel. Amazon S3 verschlüsselt Ihre Daten auf Objektebene beim Schreiben auf Festplatte und entschlüsselt sie beim Zugriff auf sie. Sie können die Verschlüsselungseinstellung ändern, die für zukünftige Objekte verwendet wird, wenn sie dem Bucket hinzugefügt werden.
+
+Die Verschlüsselung ist standardmäßig unter Verwendung von „Amazon S3 Managed Keys (SSE-S3)“ in neuen Buckets aktiviert, die von BlueXP erstellt wurden. https://docs.aws.amazon.com/AmazonS3/latest/userguide/serv-side-encryption.html["Weitere Informationen zur serverseitigen Verschlüsselung finden Sie in der Amazon S3 Dokumentation"^].
+
+Alternativ können Sie die Verschlüsselung über den „AWS Key Management Service Key (SSE-KMS)“ aktivieren. Eine Verschlüsselung ist auch über Ihre eigenen vom Kunden bereitgestellten Schlüssel (SSE-C) möglich, doch ist diese Funktion nicht über die BlueXP UI verfügbar – Sie müssen die Benutzeroberfläche von Amazon verwenden.
+
+image:screenshot-amazon-s3-encryption1.png["Ein Screenshot, der zeigt, wie der für einen Bucket verwendete Verschlüsselungstyp geändert wird."]
+
+Wenn Sie „AWS Key Management Service Key (SSE-KMS)“ wählen, können Sie einen bereits erstellten AWS KMS Key oder einen AWS KMS Key ARN (Amazon Resource Name) verwenden.
+
+image:screenshot-amazon-s3-encryption2.png["Ein Screenshot, der zeigt, wie alternative Verschlüsselungseinstellungen für einen Bucket ausgewählt werden."]
+
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingKMSEncryption.html["Weitere Informationen zum AWS Key Management Service finden Sie in der Amazon S3 Dokumentation"^] Und über https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#key-mgmt["Verwendung von Kundenschlüsseln zur Versus AWS Schlüssel"^].
