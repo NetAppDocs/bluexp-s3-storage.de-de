@@ -2,7 +2,6 @@
 <blocks>
   <block id="efd9710de9c698fbbeb7b7b11597f70b" category="summary">Nach der Installation eines Connectors in AWS erkennt BlueXP automatisch Informationen zu den Amazon S3 Buckets, die sich im AWS Konto befinden, in dem der Connector installiert ist. Eine Amazon S3-Arbeitsumgebung wird dem Canvas hinzugefügt, damit Sie diese Informationen anzeigen können.</block>
   <block id="f7099ec977551c0bfc4264472c0bf927" category="doc">Anzeigen Ihrer Amazon S3 Buckets</block>
-  <block id="bf9799ea7692475c7cf9755a148ec201" category="paragraph">Sie erhalten Details zu Ihren S3 Buckets, einschließlich Region, Zugriffsrichtlinien, Konto, Gesamt- und genutzter Kapazität, und mehr. Diese Buckets können als Ziele für Cloud-Backup, Cloud-Tiering oder Cloud Sync-Vorgänge verwendet werden. Zudem können Sie mit Cloud Data Sense diese Buckets scannen.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Schritte</block>
   <block id="9c626900b015a97ee8e428d66dd7d5d1" category="inline-link">Installieren Sie einen Anschluss</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">Wählen Sie im Navigationsmenü die Option *Storage &gt; Canvas* aus.</block>
@@ -133,24 +132,14 @@
   <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
   <block id="5617fc4c90db2216d4ba9da3ed61d8ee" category="summary">Nach der Erkennung von S3 Buckets in BlueXP können Sie NetApp Datenservices für Backup, Tiering, Klassifizierung und Datensynchronisierung verwenden.</block>
   <block id="49b9d9b89078e5e4f47991c877526750" category="doc">Nutzen Sie NetApp Datenservices mit S3 Buckets</block>
-  <block id="db0f7065ba0a96411a0de05280ec7352" category="list-text">Backup von Daten aus Ihren lokalen ONTAP- und Cloud Volumes ONTAP-Systemen in S3 Objekt-Storage; *Cloud-Backup*</block>
   <block id="7eb41a611de377805e9a7df9b3ae691b" category="paragraph">Um zu beginnen, gehen Sie auf den Bildschirm und ziehen Sie eine lokale ONTAP oder Cloud Volumes ONTAP Arbeitsumgebung in Ihrer Amazon S3 Arbeitsumgebung.</block>
   <block id="7b7fcd600f1d926ca9fe6a7cb21750f2" category="inline-link">Erfahren Sie mehr über die Sicherung von ONTAP Daten in Amazon S3 Storage</block>
   <block id="16c28e3d84a53771a1a9299bf39e52c2" category="paragraph"><block ref="4ecde652b89e6f04e3058b0cb9af264c" category="inline-link-rx"></block>.</block>
-  <block id="7202459e7043ba4b6f866b6aa920e679" category="list-text">Tiering * für das Tiering inaktiver Daten von lokalen ONTAP-Clustern auf S3 Objekt-Storage</block>
   <block id="3e0f8335010aedcfb82affccaacd20ec" category="paragraph">Um zu beginnen, gehen Sie auf den Bildschirm und ziehen Sie eine lokale ONTAP-Arbeitsumgebung in Ihrer Amazon S3-Arbeitsumgebung.</block>
   <block id="a9dee648c451dbc4fdeeab5bcb9014ed" category="inline-link">Weitere Informationen zum Tiering von ONTAP Daten in Amazon S3 Storage</block>
   <block id="9858a8b4f4f88f76a27f43472f5f6ca4" category="paragraph"><block ref="fa191a4a135c670d0161f99d5ad270e4" category="inline-link-rx"></block>.</block>
-  <block id="0e1d535f7ffeb46d1cedce4380540ece" category="list-text">Verwenden Sie *Cloud Sync*, um Daten mit oder von S3 Buckets zu synchronisieren.</block>
   <block id="b1e27059ba7694353c38efd583f70d7c" category="paragraph">Um zu beginnen, gehen Sie auf den Bildschirm und ziehen Sie die Quelle Arbeitsumgebung auf die Ziel-Arbeitsumgebung. Ihre Amazon S3-Arbeitsumgebung kann als Quelle oder als Ziel dienen.</block>
-  <block id="ab9e49315276ae32c73ed19323492c14" category="paragraph">Sie können auch Ihre Amazon S3-Arbeitsumgebung auswählen und im Servicebereich auf *Daten synchronisieren* klicken, um Daten mit oder aus S3-Buckets zu synchronisieren.</block>
-  <block id="d7ac8297012a05979b15d24f9d3b130c" category="inline-link">Erfahren Sie mehr über den Cloud Sync Service</block>
-  <block id="1bd2d5ff3aeebe1a238c886f7388e42f" category="paragraph"><block ref="9349c5ab3057a0ff71d35b794d6794a5" category="inline-link-rx"></block>.</block>
-  <block id="024e60ab8f7a88270d46c6aed054f6bd" category="list-text">Verwenden Sie *Cloud Data Sense*, um Ihre S3-Buckets nach persönlichen und sensiblen Daten zu scannen. Cloud Data Sense kann jeden Bucket des Kontos scannen, unabhängig davon, ob er für eine NetApp Lösung erstellt wurde.</block>
   <block id="55bd7bd6bf396c28ae8aca1611f8ee53" category="paragraph">Wählen Sie zunächst Ihre Amazon S3-Arbeitsumgebung aus, und wählen Sie im Bereich *Klassifizierung* des Servicebereichs die entsprechende Option aus, um das Scannen Ihrer S3-Buckets zu starten.</block>
-  <block id="febefe350001907b76b53ef88b63361e" category="inline-link">Erfahren Sie mehr über den Cloud Data Sense Service</block>
-  <block id="3ef78a45208afe4b2f2ca2cdade6c100" category="paragraph"><block ref="4ba69bfe1627585dab52e6f3cbb737bc" category="inline-link-rx"></block>.</block>
-  <block id="f5b5c580cdea371eec20c3e34f9c28d4" category="summary">Einstieg in die Nutzung von Amazon S3 Storage mit Ihrem BlueXP System (ehemals Cloud Manager)</block>
   <block id="3bcfa77ba520ecdb90dbb673cc23cb5e" category="doc">Amazon S3 Storage-Dokumentation</block>
   <block id="f54c8c1223f73d87869999847d1ae49e" category="summary">Erfahren Sie mehr über die Neuerungen bei Amazon S3 Storage in BlueXP.</block>
   <block id="9a8d5d2b68f540bdc8d48d6f59172160" category="doc">Neuerungen bei Amazon S3 Storage in BlueXP</block>
@@ -291,4 +280,15 @@
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*Aktennotizen aktualisieren*: Geben Sie zusätzliche Details zu Ihrem Problem an oder wählen Sie *Dateien hochladen*, um maximal fünf Dateien anzuhängen.</block>
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
   <block id="33f05c582a652d788edcb0b74a401a92" category="list-text"><block ref="c626d18348452ff034d9c34b877c8510" category="inline-link-rx"></block> In dem AWS Konto, wo Sie Ihre Amazon S3 Buckets anzeigen möchten.</block>
+  <block id="6f398b0701e7de915bb04028de8bb878" category="summary">Erste Schritte bei der Nutzung von Amazon S3 Storage mit Ihrem BlueXP System</block>
+  <block id="55d43ef1b3aadb22506c7c638269e01f" category="list-text">BlueXP Backup und Recovery* ermöglichen Ihnen das Backup Ihrer Daten von Ihren lokalen ONTAP und Cloud Volumes ONTAP Systemen auf S3 Objekt-Storage.</block>
+  <block id="e9e23123fd45494a9875ecbf65b7c4c2" category="list-text">Mit *BlueXP Tiering* verschieben Sie inaktive Daten von lokalen ONTAP-Clustern auf S3 Objekt-Storage.</block>
+  <block id="abf72b99927199c83ae30fe49e03ad1f" category="list-text">Verwenden Sie *BlueXP Kopier- und Synchronisierungsfunktion* für die Datensynchronisierung mit oder von S3 Buckets.</block>
+  <block id="206ea88fa47e88b7036f838bb0a17b5b" category="paragraph">Sie können auch Ihre Amazon S3-Arbeitsumgebung auswählen und im Servicebereich auf *Kopieren und Synchronisieren* klicken, um Daten mit oder aus S3-Buckets zu synchronisieren.</block>
+  <block id="f850079a6ff3f16354189a6475029756" category="inline-link">Weitere Informationen zum BlueXP Kopier- und Synchronisierungsservice</block>
+  <block id="5d0005389917956f669c6c8a2bdb9021" category="paragraph"><block ref="38c89c9372e10aa3cf45428e5f26fe27" category="inline-link-rx"></block>.</block>
+  <block id="648a3a428fc442c8406158cb9e5afb20" category="list-text">Mit *BlueXP Klassifizierung* scannen Sie Ihre S3-Buckets nach persönlichen und sensiblen Daten. Die BlueXP Klassifizierung kann beliebige Buckets im Konto scannen, unabhängig davon, ob sie für eine NetApp Lösung erstellt wurden.</block>
+  <block id="79dc7a5f3247a2e3c1f0302827271c0e" category="inline-link">Erfahren Sie mehr über den BlueXP Klassifizierungsservice</block>
+  <block id="f44d04f198e327aac7307493564b4f16" category="paragraph"><block ref="9a556273b74cb7e85645de2561f90023" category="inline-link-rx"></block>.</block>
+  <block id="a1b1ace9d93b9726388b0450fcf0ead8" category="paragraph">Sie erhalten Details zu Ihren S3 Buckets, einschließlich Region, Zugriffsrichtlinien, Konto, Gesamt- und genutzter Kapazität, und mehr. Diese Buckets können als Ziele für BlueXP Backup und Recovery, BlueXP Tiering oder BlueXP Kopier- und Synchronisierungsvorgänge verwendet werden. Darüber hinaus können Sie diese Buckets mithilfe der BlueXP Klassifizierung scannen.</block>
 </blocks>

@@ -16,7 +16,7 @@ summary: Nach der Installation eines Connectors in AWS erkennt BlueXP automatisc
 [role="lead"]
 Nach der Installation eines Connectors in AWS erkennt BlueXP automatisch Informationen zu den Amazon S3 Buckets, die sich im AWS Konto befinden, in dem der Connector installiert ist. Eine Amazon S3-Arbeitsumgebung wird dem Canvas hinzugefügt, damit Sie diese Informationen anzeigen können.
 
-Sie erhalten Details zu Ihren S3 Buckets, einschließlich Region, Zugriffsrichtlinien, Konto, Gesamt- und genutzter Kapazität, und mehr. Diese Buckets können als Ziele für Cloud-Backup, Cloud-Tiering oder Cloud Sync-Vorgänge verwendet werden. Zudem können Sie mit Cloud Data Sense diese Buckets scannen.
+Sie erhalten Details zu Ihren S3 Buckets, einschließlich Region, Zugriffsrichtlinien, Konto, Gesamt- und genutzter Kapazität, und mehr. Diese Buckets können als Ziele für BlueXP Backup und Recovery, BlueXP Tiering oder BlueXP Kopier- und Synchronisierungsvorgänge verwendet werden. Darüber hinaus können Sie diese Buckets mithilfe der BlueXP Klassifizierung scannen.
 
 .Schritte
 . https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-connector-aws.html["Installieren Sie einen Anschluss"^] In dem AWS Konto, wo Sie Ihre Amazon S3 Buckets anzeigen möchten.

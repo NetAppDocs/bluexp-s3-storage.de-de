@@ -16,35 +16,35 @@ summary: Nach der Erkennung von S3 Buckets in BlueXP können Sie NetApp Datenser
 [role="lead"]
 Nach der Erkennung von S3 Buckets in BlueXP können Sie NetApp Datenservices für Backup, Tiering, Klassifizierung und Datensynchronisierung verwenden.
 
-* Backup von Daten aus Ihren lokalen ONTAP- und Cloud Volumes ONTAP-Systemen in S3 Objekt-Storage; *Cloud-Backup*
+* BlueXP Backup und Recovery* ermöglichen Ihnen das Backup Ihrer Daten von Ihren lokalen ONTAP und Cloud Volumes ONTAP Systemen auf S3 Objekt-Storage.
 +
 Um zu beginnen, gehen Sie auf den Bildschirm und ziehen Sie eine lokale ONTAP oder Cloud Volumes ONTAP Arbeitsumgebung in Ihrer Amazon S3 Arbeitsumgebung.
 
 +
 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["Erfahren Sie mehr über die Sicherung von ONTAP Daten in Amazon S3 Storage"^].
 
-* Tiering * für das Tiering inaktiver Daten von lokalen ONTAP-Clustern auf S3 Objekt-Storage
+* Mit *BlueXP Tiering* verschieben Sie inaktive Daten von lokalen ONTAP-Clustern auf S3 Objekt-Storage.
 +
 Um zu beginnen, gehen Sie auf den Bildschirm und ziehen Sie eine lokale ONTAP-Arbeitsumgebung in Ihrer Amazon S3-Arbeitsumgebung.
 
 +
 https://docs.netapp.com/us-en/cloud-manager-tiering/task-tiering-onprem-aws.html["Weitere Informationen zum Tiering von ONTAP Daten in Amazon S3 Storage"^].
 
-* Verwenden Sie *Cloud Sync*, um Daten mit oder von S3 Buckets zu synchronisieren.
+* Verwenden Sie *BlueXP Kopier- und Synchronisierungsfunktion* für die Datensynchronisierung mit oder von S3 Buckets.
 +
 Um zu beginnen, gehen Sie auf den Bildschirm und ziehen Sie die Quelle Arbeitsumgebung auf die Ziel-Arbeitsumgebung. Ihre Amazon S3-Arbeitsumgebung kann als Quelle oder als Ziel dienen.
 
 +
-Sie können auch Ihre Amazon S3-Arbeitsumgebung auswählen und im Servicebereich auf *Daten synchronisieren* klicken, um Daten mit oder aus S3-Buckets zu synchronisieren.
+Sie können auch Ihre Amazon S3-Arbeitsumgebung auswählen und im Servicebereich auf *Kopieren und Synchronisieren* klicken, um Daten mit oder aus S3-Buckets zu synchronisieren.
 
 +
-https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["Erfahren Sie mehr über den Cloud Sync Service"^].
+https://docs.netapp.com/us-en/cloud-manager-sync/concept-cloud-sync.html["Weitere Informationen zum BlueXP Kopier- und Synchronisierungsservice"^].
 
-* Verwenden Sie *Cloud Data Sense*, um Ihre S3-Buckets nach persönlichen und sensiblen Daten zu scannen. Cloud Data Sense kann jeden Bucket des Kontos scannen, unabhängig davon, ob er für eine NetApp Lösung erstellt wurde.
+* Mit *BlueXP Klassifizierung* scannen Sie Ihre S3-Buckets nach persönlichen und sensiblen Daten. Die BlueXP Klassifizierung kann beliebige Buckets im Konto scannen, unabhängig davon, ob sie für eine NetApp Lösung erstellt wurden.
 +
 Wählen Sie zunächst Ihre Amazon S3-Arbeitsumgebung aus, und wählen Sie im Bereich *Klassifizierung* des Servicebereichs die entsprechende Option aus, um das Scannen Ihrer S3-Buckets zu starten.
 
 +
-https://docs.netapp.com/us-en/cloud-manager-data-sense/task-scanning-s3.html["Erfahren Sie mehr über den Cloud Data Sense Service"^].
+https://docs.netapp.com/us-en/cloud-manager-data-sense/task-scanning-s3.html["Erfahren Sie mehr über den BlueXP Klassifizierungsservice"^].
 
 
