@@ -154,7 +154,6 @@
   <block id="7aa72240c8357c1ccb645c4ed54fc655" category="list-text">Gibt an, ob die Versionierung für alle Objekte im Bucket aktiviert oder deaktiviert ist.</block>
   <block id="d92cc14996cce4261a7042bf7143a0eb" category="list-text">Sie können Tags auf die Objekte anwenden, die dem Bucket hinzugefügt werden.</block>
   <block id="7178af2148dd1317957ac72803a11101" category="list-text">Gibt an, ob neue Objekte, die dem Bucket hinzugefügt wurden, verschlüsselt werden, und die Option für die Verschlüsselung.</block>
-  <block id="258dd0211ab217210a7ac3a749ffe94e" category="paragraph">Sie können diese Bucket-Einstellungen direkt in BlueXP ändern, indem Sie auf klicken <block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> &gt; *Details verwalten* für einen Eimer.</block>
   <block id="03e28e82e5ae57af9a5632a915905ac6" category="inline-image-macro">Ein Screenshot, der zeigt, wie die Schaltfläche „Manager-Details“ zum Bearbeiten der Bucket-Eigenschaften ausgewählt wird.</block>
   <block id="b1663f0a11aefa655b800e4525611bc7" category="paragraph"><block ref="b1663f0a11aefa655b800e4525611bc7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c1271f859cb12c5ef9b0c1934c2075f1" category="section-title">Ändern Sie die Versionseinstellung</block>
@@ -291,4 +290,5 @@
   <block id="79dc7a5f3247a2e3c1f0302827271c0e" category="inline-link">Erfahren Sie mehr über den BlueXP Klassifizierungsservice</block>
   <block id="f44d04f198e327aac7307493564b4f16" category="paragraph"><block ref="9a556273b74cb7e85645de2561f90023" category="inline-link-rx"></block>.</block>
   <block id="a1b1ace9d93b9726388b0450fcf0ead8" category="paragraph">Sie erhalten Details zu Ihren S3 Buckets, einschließlich Region, Zugriffsrichtlinien, Konto, Gesamt- und genutzter Kapazität, und mehr. Diese Buckets können als Ziele für BlueXP Backup und Recovery, BlueXP Tiering oder BlueXP Kopier- und Synchronisierungsvorgänge verwendet werden. Darüber hinaus können Sie diese Buckets mithilfe der BlueXP Klassifizierung scannen.</block>
+  <block id="cdf45afb1d66e7ab7ab5a8b752954903" category="paragraph">Sie können diese Bucket-Einstellungen direkt in BlueXP ändern, indem Sie auf klicken <block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> Für einen Eimer.</block>
 </blocks>
