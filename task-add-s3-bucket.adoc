@@ -30,9 +30,9 @@ image:screenshot-add-amazon-s3-bucket.png["Ein Screenshot mit der Seite „Bucke
 . Geben Sie auf der Seite Add Bucket die erforderlichen Informationen zum Erstellen des Buckets ein und klicken Sie auf *Apply*.
 +
 .. Geben Sie den Namen ein, den Sie für den Bucket verwenden möchten.
-.. Wählen Sie das AWS-Konto aus, das der Eigentümer des Buckets sein wird. Dies kann das primäre Konto sein, in dem der Connector bereitgestellt wurde, oder es kann ein sein https://["Es gibt unterschiedliche Konten, die Sie zu BlueXP hinzugefügt haben"^].
+.. Wählen Sie das AWS-Konto aus, das der Eigentümer des Buckets sein wird. Dies kann das primäre Konto sein, in dem der Connector bereitgestellt wurde, oder es kann ein sein https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-aws-accounts.html#add-credentials-to-a-connector["Es gibt unterschiedliche Konten, die Sie zu BlueXP hinzugefügt haben"^].
 .. Wählen Sie die AWS-Region aus, in der der Bucket erstellt werden soll.
-.. Optional können Sie die S3-Objektsperrung auf dem Bucket aktivieren, um Objekte mithilfe eines WORM-Modells (Write-Once-Read-Many) zu speichern. Wenn Sie die Objektsperrung verwenden möchten, müssen Sie sie beim Erstellen des Buckets aktivieren. Durch Aktivieren der Objektsperre wird auch die Versionierung aktiviert. https://["Weitere Informationen zur Objektsperrung finden Sie in der Amazon S3 Dokumentation"^].
+.. Optional können Sie die S3-Objektsperrung auf dem Bucket aktivieren, um Objekte mithilfe eines WORM-Modells (Write-Once-Read-Many) zu speichern. Wenn Sie die Objektsperrung verwenden möchten, müssen Sie sie beim Erstellen des Buckets aktivieren. Durch Aktivieren der Objektsperre wird auch die Versionierung aktiviert. https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html["Weitere Informationen zur Objektsperrung finden Sie in der Amazon S3 Dokumentation"^].
 +
 Der Bucket wird erstellt.
 
