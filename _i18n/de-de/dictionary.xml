@@ -33,7 +33,6 @@
   <block id="3528909a31eaf26ed1ec5e91d30680b6" category="list-text">Geben Sie auf der Seite Add Bucket die erforderlichen Informationen zum Erstellen des Buckets ein und klicken Sie auf *Apply*.</block>
   <block id="0b70185623faa55e384834695ae8d364" category="list-text">Geben Sie den Namen ein, den Sie für den Bucket verwenden möchten.</block>
   <block id="597de3cf2a2ed6f9bd6e82c0a7a73572" category="inline-link">Es gibt unterschiedliche Konten, die Sie zu BlueXP hinzugefügt haben</block>
-  <block id="085c603a33e2a93fe33cfaa53bde3bed" category="list-text">Wählen Sie das AWS-Konto aus, das der Eigentümer des Buckets sein wird. Dies kann das primäre Konto sein, in dem der Connector bereitgestellt wurde, oder es kann ein sein<block ref="04ca776e6b618b849c3932f8646ac1fb" category="inline-link-rx"></block>.</block>
   <block id="0122311ed1a57dce15e992365a9457e2" category="list-text">Wählen Sie die AWS-Region aus, in der der Bucket erstellt werden soll.</block>
   <block id="949a961e422bda6c898ac6590ce47cb8" category="inline-link">Weitere Informationen zur Objektsperrung finden Sie in der Amazon S3 Dokumentation</block>
   <block id="d87ea88e84d5837b06e24d3c7e16b421" category="list-text">Optional können Sie die S3-Objektsperrung auf dem Bucket aktivieren, um Objekte mithilfe eines WORM-Modells (Write-Once-Read-Many) zu speichern. Wenn Sie die Objektsperrung verwenden möchten, müssen Sie sie beim Erstellen des Buckets aktivieren. Durch Aktivieren der Objektsperre wird auch die Versionierung aktiviert.<block ref="1399ee2a35dec21bba05889732a3a632" category="inline-link-rx"></block>.</block>
@@ -73,7 +72,6 @@
   <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*Problembeschreibung*: Geben Sie eine detaillierte Beschreibung Ihres Problems an, einschließlich aller anwendbaren Fehlermeldungen oder Fehlerbehebungsschritte, die Sie durchgeführt haben.</block>
   <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*Zusätzliche E-Mail-Adressen*: Geben Sie zusätzliche E-Mail-Adressen ein, wenn Sie jemand anderes auf dieses Problem aufmerksam machen möchten.</block>
   <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">Screenshot aus dem Formular „Create a Case“, in dem Sie einen Case beim NetApp Support erstellen können</block>
-  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">Nachdem Sie fertig sind</block>
   <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">Es wird ein Popup-Fenster mit der Support-Fallnummer angezeigt. Ein NetApp Support-Experte prüft Ihren Fall und macht Sie umgehend mit.</block>
   <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">Für eine Historie Ihrer Supportfälle können Sie auf *Einstellungen &gt; Timeline* klicken und nach Aktionen mit dem Namen „Support Case erstellen“ suchen. Mit einer Schaltfläche ganz rechts können Sie die Aktion erweitern, um Details anzuzeigen.</block>
@@ -100,20 +98,14 @@
   <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">Klicken Sie unter *Organizations-Fälle* auf *Ansicht*, um alle mit Ihrem Unternehmen verbundenen Fälle anzuzeigen.</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">Ändern Sie den Datumsbereich, indem Sie einen genauen Datumsbereich oder einen anderen Zeitrahmen auswählen.</block>
   <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">Ein Screenshot der Option über der Tabelle auf der Seite Case Management, mit der Sie einen genauen Datumsbereich oder die letzten 7 Tage, 30 Tage oder 3 Monate auswählen können.</block>
-  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">Filtern Sie den Inhalt der Spalten.</block>
   <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">Ein Screenshot der Filteroption in der Spalte Status, in dem Sie Fälle filtern können, die einem bestimmten Status entsprechen, z. B. aktiv oder Geschlossen.</block>
-  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">Das Plus-Symbol, das in der Tabelle angezeigt wird</block>
-  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">Ändern Sie die Spalten, die in der Tabelle angezeigt werden, indem Sie auf klicken <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> Und wählen Sie dann die Spalten, die Sie anzeigen möchten.</block>
   <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">Ein Screenshot mit den Spalten, die Sie in der Tabelle anzeigen können.</block>
-  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">Ein Symbol mit drei Punkten, das in der letzten Spalte der Tabelle angezeigt wird</block>
-  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">Managen Sie einen bestehenden Fall, indem Sie auf klicken <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> Und eine der verfügbaren Optionen auswählen:</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*Fall anzeigen*: Vollständige Details zu einem bestimmten Fall anzeigen.</block>
   <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*Fall schließen*: Geben Sie Details darüber an, warum Sie den Fall schließen und klicken Sie auf *Fall schließen*.</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">Ein Screenshot, der die Aktionen zeigt, die Sie nach Auswahl des Menüs in der letzten Spalte der Tabelle durchführen können.</block>
-  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Rechtliche Hinweise</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Rechtliche Hinweise ermöglichen den Zugriff auf Copyright-Erklärungen, Marken, Patente und mehr.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Urheberrecht</block>
@@ -129,15 +121,12 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Open Source</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">In den Benachrichtigungsdateien finden Sie Informationen zu Urheberrechten und Lizenzen von Drittanbietern, die in der NetApp Software verwendet werden.</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">Hinweis für BlueXP</block>
-  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
   <block id="5617fc4c90db2216d4ba9da3ed61d8ee" category="summary">Nach der Erkennung von S3 Buckets in BlueXP können Sie NetApp Datenservices für Backup, Tiering, Klassifizierung und Datensynchronisierung verwenden.</block>
   <block id="49b9d9b89078e5e4f47991c877526750" category="doc">Nutzen Sie NetApp Datenservices mit S3 Buckets</block>
   <block id="7eb41a611de377805e9a7df9b3ae691b" category="paragraph">Um zu beginnen, gehen Sie auf den Bildschirm und ziehen Sie eine lokale ONTAP oder Cloud Volumes ONTAP Arbeitsumgebung in Ihrer Amazon S3 Arbeitsumgebung.</block>
   <block id="7b7fcd600f1d926ca9fe6a7cb21750f2" category="inline-link">Erfahren Sie mehr über die Sicherung von ONTAP Daten in Amazon S3 Storage</block>
-  <block id="16c28e3d84a53771a1a9299bf39e52c2" category="paragraph"><block ref="4ecde652b89e6f04e3058b0cb9af264c" category="inline-link-rx"></block>.</block>
   <block id="3e0f8335010aedcfb82affccaacd20ec" category="paragraph">Um zu beginnen, gehen Sie auf den Bildschirm und ziehen Sie eine lokale ONTAP-Arbeitsumgebung in Ihrer Amazon S3-Arbeitsumgebung.</block>
   <block id="a9dee648c451dbc4fdeeab5bcb9014ed" category="inline-link">Weitere Informationen zum Tiering von ONTAP Daten in Amazon S3 Storage</block>
-  <block id="9858a8b4f4f88f76a27f43472f5f6ca4" category="paragraph"><block ref="fa191a4a135c670d0161f99d5ad270e4" category="inline-link-rx"></block>.</block>
   <block id="b1e27059ba7694353c38efd583f70d7c" category="paragraph">Um zu beginnen, gehen Sie auf den Bildschirm und ziehen Sie die Quelle Arbeitsumgebung auf die Ziel-Arbeitsumgebung. Ihre Amazon S3-Arbeitsumgebung kann als Quelle oder als Ziel dienen.</block>
   <block id="55bd7bd6bf396c28ae8aca1611f8ee53" category="paragraph">Wählen Sie zunächst Ihre Amazon S3-Arbeitsumgebung aus, und wählen Sie im Bereich *Klassifizierung* des Servicebereichs die entsprechende Option aus, um das Scannen Ihrer S3-Buckets zu starten.</block>
   <block id="3bcfa77ba520ecdb90dbb673cc23cb5e" category="doc">Amazon S3 Storage-Dokumentation</block>
@@ -189,11 +178,8 @@
   <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">Unterstützung für Cloud-Provider-Lösungen</block>
   <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">Technische Unterstützung für die folgenden Lösungen von Cloud-Providern, die Sie in BlueXP integriert haben, finden Sie in der BlueXP-Dokumentation zu diesem Produkt unter „Hilfe“.</block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX für ONTAP</block>
-  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Dateien</block>
-  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service für Google Cloud</block>
-  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Übersicht über die Support-Registrierung</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">Es gibt zwei Registrierungsformulare, um die Support-Berechtigung zu aktivieren:</block>
   <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">Registrieren Ihres BlueXP-Konto-ID-Support-Abonnements (Ihre 20-stellige Seriennummer 960xxxxxxxxx auf der Seite Support-Ressourcen in BlueXP).</block>
@@ -216,7 +202,6 @@
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Wenn Sie einen Partner- oder Reseller-Account haben, können Sie ein oder mehrere NSS-Konten hinzufügen, können aber nicht neben Kunden-Level Accounts hinzugefügt werden.</block>
   <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">Klicken Sie oben rechts in der BlueXP-Konsole auf das Hilfesymbol, und wählen Sie *Support*.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Ein Screenshot des Hilfemenü, in dem Support die erste Option aufgeführt ist</block>
-  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">Klicken Sie auf *NSS Management &gt; NSS-Konto hinzufügen*.</block>
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">Wenn Sie dazu aufgefordert werden, klicken Sie auf *Weiter*, um auf eine Microsoft-Login-Seite umgeleitet zu werden.</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp verwendet Microsoft Azure Active Directory als Identitäts-Provider für Authentifizierungsservices, die sich speziell für Support und Lizenzierung entscheiden.</block>
@@ -228,8 +213,6 @@
   <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">Dasselbe gilt, wenn Sie bereits NSS-Konten auf Kundenebene haben und versuchen, ein Konto auf Partnerebene hinzuzufügen.</block>
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">Bei der erfolgreichen Anmeldung wird NetApp den NSS-Benutzernamen speichern.</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Ein Symbol von drei horizontalen Punkten</block>
-  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">Dies ist eine vom System generierte ID, die Ihrer E-Mail zugeordnet ist. Auf der Seite *NSS Management* können Sie Ihre E-Mail über anzeigen <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> Menü.</block>
-  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">Wenn Sie jemals Ihre Anmeldeinformationen aktualisieren müssen, gibt es im auch eine *Anmeldeinformationen aktualisieren*-Option <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> Menü.</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">Wenn Sie diese Option verwenden, werden Sie aufgefordert, sich erneut anzumelden. Beachten Sie, dass das Token für diese Konten nach 90 Tagen abläuft. Eine Benachrichtigung wird gesendet, um Sie darüber zu informieren.</block>
   <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">Mit NetApp registrieren</block>
   <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">Wie Sie sich für den NetApp Support registrieren, hängt davon ab, ob Sie bereits über einen NSS Account (NetApp Support Site) verfügen.</block>
@@ -238,7 +221,6 @@
   <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">Wenn Sie dies noch nicht getan haben, fügen Sie Ihr NSS-Konto bei BlueXP hinzu.</block>
   <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">Klicken Sie auf der Seite *Ressourcen* auf *für Support registrieren*.</block>
   <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">In einem Screenshot, der eine Seriennummer des Kontos und die Option „Register for Support“ anzeigt</block>
-  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">Vorhandener Kunde, aber kein NSS-Konto</block>
   <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">Wenn Sie bereits Kunde von NetApp mit vorhandenen Lizenzen und Seriennummern sind, aber _no_ NSS Konto, müssen Sie nur ein NSS-Konto erstellen.</block>
   <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support Site-Formular zur Benutzerregistrierung</block>
@@ -248,7 +230,6 @@
   <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Neu bei NetApp</block>
   <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Wenn Sie neu bei NetApp sind und über keinen NSS-Account verfügen, befolgen Sie jeden Schritt unten.</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Suchen Sie auf der Seite für die Support-Registrierung die Seriennummer Ihres Kontos.</block>
-  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Die Support-Registrierungs-Website von NetApp</block>
   <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Navigieren Sie zu<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> Und wählen Sie *Ich bin kein registrierter NetApp Kunde*.</block>
   <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Füllen Sie die Pflichtfelder aus (mit roten Sternchen).</block>
@@ -278,17 +259,36 @@
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">Anhänge sind auf 25 MB pro Datei begrenzt. Folgende Dateierweiterungen werden unterstützt: Txt, log, pdf, jpg/jpeg, rtf, doc/docx, xls/xlsx und csv.</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*Aktennotizen aktualisieren*: Geben Sie zusätzliche Details zu Ihrem Problem an oder wählen Sie *Dateien hochladen*, um maximal fünf Dateien anzuhängen.</block>
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
-  <block id="33f05c582a652d788edcb0b74a401a92" category="list-text"><block ref="c626d18348452ff034d9c34b877c8510" category="inline-link-rx"></block> In dem AWS Konto, wo Sie Ihre Amazon S3 Buckets anzeigen möchten.</block>
   <block id="6f398b0701e7de915bb04028de8bb878" category="summary">Erste Schritte bei der Nutzung von Amazon S3 Storage mit Ihrem BlueXP System</block>
   <block id="55d43ef1b3aadb22506c7c638269e01f" category="list-text">BlueXP Backup und Recovery* ermöglichen Ihnen das Backup Ihrer Daten von Ihren lokalen ONTAP und Cloud Volumes ONTAP Systemen auf S3 Objekt-Storage.</block>
   <block id="e9e23123fd45494a9875ecbf65b7c4c2" category="list-text">Mit *BlueXP Tiering* verschieben Sie inaktive Daten von lokalen ONTAP-Clustern auf S3 Objekt-Storage.</block>
   <block id="abf72b99927199c83ae30fe49e03ad1f" category="list-text">Verwenden Sie *BlueXP Kopier- und Synchronisierungsfunktion* für die Datensynchronisierung mit oder von S3 Buckets.</block>
   <block id="206ea88fa47e88b7036f838bb0a17b5b" category="paragraph">Sie können auch Ihre Amazon S3-Arbeitsumgebung auswählen und im Servicebereich auf *Kopieren und Synchronisieren* klicken, um Daten mit oder aus S3-Buckets zu synchronisieren.</block>
   <block id="f850079a6ff3f16354189a6475029756" category="inline-link">Weitere Informationen zum BlueXP Kopier- und Synchronisierungsservice</block>
-  <block id="5d0005389917956f669c6c8a2bdb9021" category="paragraph"><block ref="38c89c9372e10aa3cf45428e5f26fe27" category="inline-link-rx"></block>.</block>
   <block id="648a3a428fc442c8406158cb9e5afb20" category="list-text">Mit *BlueXP Klassifizierung* scannen Sie Ihre S3-Buckets nach persönlichen und sensiblen Daten. Die BlueXP Klassifizierung kann beliebige Buckets im Konto scannen, unabhängig davon, ob sie für eine NetApp Lösung erstellt wurden.</block>
   <block id="79dc7a5f3247a2e3c1f0302827271c0e" category="inline-link">Erfahren Sie mehr über den BlueXP Klassifizierungsservice</block>
-  <block id="f44d04f198e327aac7307493564b4f16" category="paragraph"><block ref="9a556273b74cb7e85645de2561f90023" category="inline-link-rx"></block>.</block>
   <block id="a1b1ace9d93b9726388b0450fcf0ead8" category="paragraph">Sie erhalten Details zu Ihren S3 Buckets, einschließlich Region, Zugriffsrichtlinien, Konto, Gesamt- und genutzter Kapazität, und mehr. Diese Buckets können als Ziele für BlueXP Backup und Recovery, BlueXP Tiering oder BlueXP Kopier- und Synchronisierungsvorgänge verwendet werden. Darüber hinaus können Sie diese Buckets mithilfe der BlueXP Klassifizierung scannen.</block>
   <block id="cdf45afb1d66e7ab7ab5a8b752954903" category="paragraph">Sie können diese Bucket-Einstellungen direkt in BlueXP ändern, indem Sie auf klicken <block ref="98246678a6b4f53f828068ceb430dd9d" category="inline-image-macro-rx" type="image"></block> Für einen Eimer.</block>
+  <block id="31cd35a9507d9186bb5d44594a16da82" category="list-text"><block ref="6a0b8bd678b97cb145a1e339644d0418" category="inline-link-rx"></block> In dem AWS Konto, wo Sie Ihre Amazon S3 Buckets anzeigen möchten.</block>
+  <block id="a249f26c0fe658ba29f99f0b723c2e26" category="list-text">Wählen Sie das AWS-Konto aus, das der Eigentümer des Buckets sein wird. Dies kann das primäre Konto sein, in dem der Connector bereitgestellt wurde, oder es kann ein sein<block ref="a3c828ca86c6b71794265d5ed70eeca4" category="inline-link-rx"></block>.</block>
+  <block id="52ba8ac12050d2494572b940a0d65b25" category="paragraph"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
+  <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
+  <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
+  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">Dies ist eine vom System generierte ID, die Ihrer E-Mail zugeordnet ist. Auf der Seite *NSS Management* können Sie Ihre E-Mail über anzeigen <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> Menü.</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">Wenn Sie jemals Ihre Anmeldeinformationen aktualisieren müssen, gibt es im auch eine *Anmeldeinformationen aktualisieren*-Option <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> Menü.</block>
+  <block id="1bb5620ed3998fd776980cad36e22c9a" category="paragraph"><block ref="1bb5620ed3998fd776980cad36e22c9a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5eb875acef05613c5e2e2218cba03126" category="paragraph"><block ref="f56037192a56a58227ef9eb36f03a9ec" category="inline-link-rx"></block>.</block>
+  <block id="cb539309983b973033370e524c04a458" category="paragraph"><block ref="1872214a8e324ce93059ba6cadc608c4" category="inline-link-rx"></block>.</block>
+  <block id="f055b625ba659736f2f6aeb28ac2fd85" category="paragraph"><block ref="82a8e5397a3e5ca934b7faa7a2036870" category="inline-link-rx"></block>.</block>
+  <block id="5f9a9fac39700f99999345591cd72308" category="paragraph"><block ref="a4a0ad288be425d5699f257670a94893" category="inline-link-rx"></block>.</block>
+  <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">Ändern Sie die Spalten, die in der Tabelle angezeigt werden, indem Sie auf klicken <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> Und wählen Sie dann die Spalten, die Sie anzeigen möchten.</block>
+  <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">Managen Sie einen bestehenden Fall, indem Sie auf klicken <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> Und eine der verfügbaren Optionen auswählen:</block>
+  <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
