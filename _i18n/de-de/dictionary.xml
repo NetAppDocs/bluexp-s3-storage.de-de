@@ -289,4 +289,11 @@
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">Technischen Support zu Fileservices von Cloud-Providern, zu seiner Infrastruktur oder zu beliebigen Lösungen, die den Service verwenden, finden Sie im Abschnitt „Hilfe erhalten“ in der BlueXP Dokumentation zu diesem Produkt.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Wenn Sie technischen Support für BlueXP und seine Storage-Lösungen und -Services erhalten möchten, nutzen Sie die unten beschriebenen Support-Optionen.</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp verwendet Microsoft Entra ID als Identitätsanbieter für Authentifizierungsservices, die speziell auf Support und Lizenzierung zugeschnitten sind.</block>
+  <block id="9734d11f1da890ec7434857fd054fb47" category="sidebar">Ändern der Bucket-Einstellungen</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="sidebar">Weitere Informationen</block>
+  <block id="d2febf9b8431d9dfeed5e223021c353e" category="sidebar">Amazon S3 Dokumentation für das Management außerhalb von BlueXP</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs und Community</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp Community</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP-Blog</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Cloud-Webinare</block>
 </blocks>
