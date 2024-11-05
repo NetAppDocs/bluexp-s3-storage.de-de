@@ -1,0 +1,9 @@
+= Möglichkeit zum Hinzufügen neuer Buckets aus BlueXP
+:allow-uri-read: 
+
+
+
+
+=== Möglichkeit zum Hinzufügen neuer Buckets aus BlueXP
+
+Sie können Amazon S3 Buckets seit geraumer Zeit auf dem BlueXP Canvas anzeigen. Jetzt können Sie neue Buckets hinzufügen und Eigenschaften für vorhandene Buckets direkt aus BlueXP  ändern. https://docs.netapp.com/us-en/bluexp-s3-storage/task-add-s3-bucket.html["So fügen Sie neue Amazon S3 Buckets hinzu"].
