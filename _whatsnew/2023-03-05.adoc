@@ -1,5 +1,7 @@
 = Möglichkeit zum Hinzufügen neuer Buckets aus BlueXP
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
 
